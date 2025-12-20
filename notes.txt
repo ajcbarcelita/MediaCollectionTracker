@@ -1,0 +1,3 @@
+Authentication service uses FastAPI (Python)
+Anime service uses Golang
+Games service uses NestJS

@@ -1,0 +1,2 @@
+Auth service is made using FastAPI, make note of what dependencies to install with pip
+Planning to use PostgreSQL for database.
