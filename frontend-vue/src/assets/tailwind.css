@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+
+/* Light */
+@theme {
+  --color-bg: #f5f5f5;
+  --color-surface: #ffffff;
+
+  --font-sans-serif: 'Inter', sans-serif;
+  --color-text: #1a1a1a;
+  --color-text-muted: #6b7280;
+
+  --color-accent: #00ffab;
+}
+
+body,
+nav,
+div {
+  @apply transition-colors duration-300 ease-in-out;
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+.dark {
+  --color-bg: #121212;
+  --color-surface: #1a1a1a;
+  --color-text: #e5e5e5;
+  --color-text-muted: #9ca3af;
+}
